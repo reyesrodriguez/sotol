@@ -1,0 +1,424 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:800,300,600);
+/* line 7, /Users/reyes/dev/flor/sotol/app/assets/stylesheets/home.scss */
+body > .container {
+  padding: 5px 15px 0;
+}
+
+/* line 13, /Users/reyes/dev/flor/sotol/app/assets/stylesheets/home.scss */
+body, html {
+  font-size: 62.5%;
+  font-family: 100% 'Open Sans', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  background-color: #f7f7f7;
+}
+
+/* line 26, /Users/reyes/dev/flor/sotol/app/assets/stylesheets/home.scss */
+.cover-header p {
+  color: lightgrey;
+  max-width: 100rem;
+  margin: 0 auto 1rem;
+  letter-spacing: .1rem;
+  font-size: 1.4rem;
+  line-height: 1.5;
+  text-align: center;
+}
+
+/* line 37, /Users/reyes/dev/flor/sotol/app/assets/stylesheets/home.scss */
+input {
+  height: 25px;
+  font-size: 1.2rem;
+  font-weight: 200;
+}
+
+/* line 43, /Users/reyes/dev/flor/sotol/app/assets/stylesheets/home.scss */
+h1 {
+  text-align: center;
+  font-size: 4rem;
+  font-weight: 800;
+  letter-spacing: 1px;
+  color: #330000;
+}
+
+/* line 54, /Users/reyes/dev/flor/sotol/app/assets/stylesheets/home.scss */
+a:link, a:visited {
+  color: black;
+  text-decoration: none;
+}
+
+/* line 58, /Users/reyes/dev/flor/sotol/app/assets/stylesheets/home.scss */
+a:hover, a:active {
+  text-decoration: none;
+}
+
+/* line 62, /Users/reyes/dev/flor/sotol/app/assets/stylesheets/home.scss */
+a:focus {
+  outline: 0;
+}
+
+/* line 67, /Users/reyes/dev/flor/sotol/app/assets/stylesheets/home.scss */
+.header {
+  text-align: center;
+}
+
+/* line 71, /Users/reyes/dev/flor/sotol/app/assets/stylesheets/home.scss */
+.img {
+  width: 100%;
+  height: auto;
+}
+
+/* line 76, /Users/reyes/dev/flor/sotol/app/assets/stylesheets/home.scss */
+h3 {
+  text-align: center;
+  font-size: 2rem;
+  font-weight: 600;
+  letter-spacing: 1px;
+  color: #330000;
+}
+
+/* line 85, /Users/reyes/dev/flor/sotol/app/assets/stylesheets/home.scss */
+.home-services h3::after {
+  height: 1px;
+  margin: 1.5rem auto 1rem;
+  width: 5rem;
+  content: '';
+  display: block;
+}
+
+/* line 92, /Users/reyes/dev/flor/sotol/app/assets/stylesheets/home.scss */
+.home-services p {
+  color: lightgrey;
+  margin: 0 auto;
+  letter-spacing: .2rem;
+  max-width: 35rem;
+  font-size: 1.7rem;
+  line-height: 1.8;
+  text-align: center;
+}
+/* line 1, /Users/reyes/dev/flor/sotol/app/assets/stylesheets/layouts/buttonnavigation.scss */
+#nav-toggle span {
+  position: absolute;
+  left: -40%;
+  top: 60%;
+  bottom: 40%;
+}
+
+/* line 2, /Users/reyes/dev/flor/sotol/app/assets/stylesheets/layouts/buttonnavigation.scss */
+#nav-toggle span, #nav-toggle span:before, #nav-toggle span:after {
+  cursor: pointer;
+  border-radius: 1px;
+  height: 5px;
+  width: 35px;
+  background: black;
+  position: absolute;
+  display: block;
+  content: '';
+}
+
+/* line 12, /Users/reyes/dev/flor/sotol/app/assets/stylesheets/layouts/buttonnavigation.scss */
+#nav-toggle span:before {
+  top: -10px;
+}
+
+/* line 15, /Users/reyes/dev/flor/sotol/app/assets/stylesheets/layouts/buttonnavigation.scss */
+#nav-toggle span:after {
+  bottom: -10px;
+}
+
+/* line 20, /Users/reyes/dev/flor/sotol/app/assets/stylesheets/layouts/buttonnavigation.scss */
+#nav-toggle span, #nav-toggle span:before, #nav-toggle span:after {
+  transition: all 500ms ease-in-out;
+}
+
+/* line 23, /Users/reyes/dev/flor/sotol/app/assets/stylesheets/layouts/buttonnavigation.scss */
+#nav-toggle.active span {
+  background-color: transparent;
+}
+
+/* line 26, /Users/reyes/dev/flor/sotol/app/assets/stylesheets/layouts/buttonnavigation.scss */
+#nav-toggle.active span:before, #nav-toggle.active span:after {
+  top: 0;
+}
+
+/* line 29, /Users/reyes/dev/flor/sotol/app/assets/stylesheets/layouts/buttonnavigation.scss */
+#nav-toggle.active span:before {
+  transform: rotate(45deg);
+}
+
+/* line 32, /Users/reyes/dev/flor/sotol/app/assets/stylesheets/layouts/buttonnavigation.scss */
+#nav-toggle.active span:after {
+  transform: rotate(-45deg);
+}
+
+/* line 36, /Users/reyes/dev/flor/sotol/app/assets/stylesheets/layouts/buttonnavigation.scss */
+.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+  background-color: white;
+}
+
+/* line 39, /Users/reyes/dev/flor/sotol/app/assets/stylesheets/layouts/buttonnavigation.scss */
+.navbar-default .navbar-toggle {
+  border-color: white;
+}
+/* line 1, /Users/reyes/dev/flor/sotol/app/assets/stylesheets/layouts/footer.scss */
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+/* line 6, /Users/reyes/dev/flor/sotol/app/assets/stylesheets/layouts/footer.scss */
+body {
+  /*margin bottom by footer height*/
+  margin-bottom: 260px;
+}
+
+/* line 11, /Users/reyes/dev/flor/sotol/app/assets/stylesheets/layouts/footer.scss */
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 260px;
+  background-color: black;
+}
+
+/********** footer content **************/
+/* line 23, /Users/reyes/dev/flor/sotol/app/assets/stylesheets/layouts/footer.scss */
+.content {
+  color: white;
+}
+
+/* line 26, /Users/reyes/dev/flor/sotol/app/assets/stylesheets/layouts/footer.scss */
+.wrap {
+  margin: 0 auto;
+  padding-top: 20px;
+}
+
+/* line 31, /Users/reyes/dev/flor/sotol/app/assets/stylesheets/layouts/footer.scss */
+.media {
+  display: inline-block;
+  padding-right: 10px;
+}
+/* line 36, /Users/reyes/dev/flor/sotol/app/assets/stylesheets/layouts/footer.scss */
+.media img {
+  height: 35px;
+  width: 35px;
+}
+
+/* line 43, /Users/reyes/dev/flor/sotol/app/assets/stylesheets/layouts/footer.scss */
+.text {
+  font-size: 1.3rem;
+  text-align: center;
+  color: white;
+  padding-top: 20px;
+}
+
+/* line 50, /Users/reyes/dev/flor/sotol/app/assets/stylesheets/layouts/footer.scss */
+.explore {
+  color: white;
+  display: inline-block;
+  padding-right: 10px;
+  font-size: 1.4rem;
+}
+
+@media only screen and (max-width: 800px) {
+  /* line 58, /Users/reyes/dev/flor/sotol/app/assets/stylesheets/layouts/footer.scss */
+  .content {
+    height: 50px;
+  }
+}
+/* line 1, /Users/reyes/dev/flor/sotol/app/assets/stylesheets/layouts/navigation.scss */
+.navbar {
+  border: none;
+  box-shadow: none;
+  border-radius: 1px;
+  background: #f7f7f7;
+}
+
+/* line 8, /Users/reyes/dev/flor/sotol/app/assets/stylesheets/layouts/navigation.scss */
+.navbar-default .navbar-nav > li > a {
+  color: black;
+  font-size: 1.5rem;
+  height: 62px;
+}
+
+/* line 14, /Users/reyes/dev/flor/sotol/app/assets/stylesheets/layouts/navigation.scss */
+#menu > li:hover {
+  background: #f7f7f7;
+  color: black;
+  -o-transition: color .3s ease-out, background .3s ease-in;
+  -ms-transition: color .3s ease-out, background .3s ease-in;
+  -moz-transition: color .3s ease-out, background .3s ease-in;
+  -webkit-transition: color .3s ease-out, background .3s ease-in;
+  transition: color .3s ease-out, background .3s ease-in;
+}
+
+/* line 24, /Users/reyes/dev/flor/sotol/app/assets/stylesheets/layouts/navigation.scss */
+.dropdown-menu > li {
+  color: black;
+}
+
+/* line 29, /Users/reyes/dev/flor/sotol/app/assets/stylesheets/layouts/navigation.scss */
+.instagram, .fb {
+  background: lightgrey;
+  opacity: 0.8;
+}
+
+/* line 34, /Users/reyes/dev/flor/sotol/app/assets/stylesheets/layouts/navigation.scss */
+.fa.fa-tasks {
+  height: 30px;
+  width: 30px;
+}
+
+/* line 44, /Users/reyes/dev/flor/sotol/app/assets/stylesheets/layouts/navigation.scss */
+#wrapper {
+  padding-left: 0;
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+
+/* line 52, /Users/reyes/dev/flor/sotol/app/assets/stylesheets/layouts/navigation.scss */
+#wrapper.toggled {
+  padding-left: 250px;
+}
+
+/* line 56, /Users/reyes/dev/flor/sotol/app/assets/stylesheets/layouts/navigation.scss */
+#sidebar-wrapper {
+  z-index: 1000;
+  position: absolute;
+  left: 250px;
+  width: 0;
+  height: 60%;
+  margin-left: -250px;
+  overflow-y: auto;
+  background-color: #f7f7f7;
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+
+/* line 71, /Users/reyes/dev/flor/sotol/app/assets/stylesheets/layouts/navigation.scss */
+#wrapper.toggled #sidebar-wrapper {
+  width: 250px;
+}
+
+/* line 75, /Users/reyes/dev/flor/sotol/app/assets/stylesheets/layouts/navigation.scss */
+#page-content-wrapper {
+  width: 100%;
+  position: absolute;
+}
+
+/* line 81, /Users/reyes/dev/flor/sotol/app/assets/stylesheets/layouts/navigation.scss */
+#wrapper.toggled #page-content-wrapper {
+  position: absolute;
+  margin-right: -250px;
+}
+
+/* Sidebar Styles */
+/* line 88, /Users/reyes/dev/flor/sotol/app/assets/stylesheets/layouts/navigation.scss */
+.sidebar-nav {
+  position: absolute;
+  top: 0;
+  width: 250px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+/* line 97, /Users/reyes/dev/flor/sotol/app/assets/stylesheets/layouts/navigation.scss */
+.sidebar-nav li {
+  text-indent: 20px;
+  line-height: 40px;
+}
+
+/* line 102, /Users/reyes/dev/flor/sotol/app/assets/stylesheets/layouts/navigation.scss */
+.sidebar-nav li a {
+  display: block;
+  text-decoration: none;
+  color: black;
+}
+
+/* line 108, /Users/reyes/dev/flor/sotol/app/assets/stylesheets/layouts/navigation.scss */
+.sidebar-nav li a:hover {
+  text-decoration: none;
+  color: lightgrey;
+  background: rgba(255, 255, 255, 0.2);
+}
+
+/* line 114, /Users/reyes/dev/flor/sotol/app/assets/stylesheets/layouts/navigation.scss */
+.sidebar-nav li a:active,
+.sidebar-nav li a:focus {
+  text-decoration: none;
+}
+
+/* line 119, /Users/reyes/dev/flor/sotol/app/assets/stylesheets/layouts/navigation.scss */
+.sidebar-nav > .sidebar-brand {
+  height: 65px;
+  font-size: 18px;
+  line-height: 60px;
+}
+
+/* line 125, /Users/reyes/dev/flor/sotol/app/assets/stylesheets/layouts/navigation.scss */
+.sidebar-nav > .sidebar-brand a {
+  color: black;
+}
+
+/* line 129, /Users/reyes/dev/flor/sotol/app/assets/stylesheets/layouts/navigation.scss */
+.sidebar-nav > .sidebar-brand a:hover {
+  color: lightgrey;
+  background: none;
+}
+
+@media (min-width: 768px) {
+  /* line 135, /Users/reyes/dev/flor/sotol/app/assets/stylesheets/layouts/navigation.scss */
+  #wrapper {
+    padding-left: 250px;
+  }
+
+  /* line 139, /Users/reyes/dev/flor/sotol/app/assets/stylesheets/layouts/navigation.scss */
+  #wrapper.toggled {
+    padding-left: 0;
+  }
+
+  /* line 143, /Users/reyes/dev/flor/sotol/app/assets/stylesheets/layouts/navigation.scss */
+  #sidebar-wrapper {
+    width: 250px;
+  }
+
+  /* line 147, /Users/reyes/dev/flor/sotol/app/assets/stylesheets/layouts/navigation.scss */
+  #wrapper.toggled #sidebar-wrapper {
+    width: 0;
+  }
+
+  /* line 151, /Users/reyes/dev/flor/sotol/app/assets/stylesheets/layouts/navigation.scss */
+  #page-content-wrapper {
+    padding: 20px;
+    position: relative;
+  }
+
+  /* line 156, /Users/reyes/dev/flor/sotol/app/assets/stylesheets/layouts/navigation.scss */
+  #wrapper.toggled #page-content-wrapper {
+    position: relative;
+    margin-right: 0;
+  }
+}
+/* line 1, /Users/reyes/dev/flor/sotol/app/assets/stylesheets/welcome.scss */
+body#welcome {
+  background-color: black;
+}
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or any plugin's vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any styles
+ * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
+ * file per style scope.
+ *
+
+
+ */
+
